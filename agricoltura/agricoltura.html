@@ -6,85 +6,415 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, worooold!</title>
+    <title>giardino</title>
   </head>
   <body>
 
-         <!--navbar-->
+<!-- navbar col menù-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #6ec48f;">
+  
+  <a class="navbar-brand nav-link" target="_blank" href="/">
+    <strong><font color="#120e03">AgroPlus</font></strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+       aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+    </button>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+            <a class="nav-link" href="/orto/orto.html" target="_blank"><font color="#120e03">Orto</font></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/giardino/giardino.html" target="_blank"><font color="#120e03">Giardino</font></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/agricoltura/agricoltura.html" target="_blank"><font color="#120e03">Agricoltura</font></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/animali/animali.html" target="_blank"><font color="#120e03">Animali</font></a>
+         </li>
+      </ul>
+   </div>
+  </nav>
+</nav>
 
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><div class="title"><img src="images/Logo.jpg" alt="" width="60px" height="60px">  TITOLO O LOGO </div></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/AGRO_PLUS/index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="...">da creare</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="...">da creare</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="...">da creare</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="...">da creare</a>
-                        </li>
-                        </ul>
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
+     <!-- carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../giardino/images/giardino-1.jpg" class="d-block w-100" alt="100">
+      </div>
+      <div class="carousel-item">
+        <img src="../giardino/images/giardino-2.jpg" class="d-block w-100" alt="100">
+      </div>
+      <div class="carousel-item">
+        <img src="../giardino/images/giardino-3.jpg" class="d-block w-100" alt="100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-         <!--carusel-->
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/optum ara.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/vendemmiatrice.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/agricoltura.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
+  <!-- qui iniziamo le cards -->
+  <p>&nbsp</p>
+      <p>&nbsp</p>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\orto\orto.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto1</h4>
+                        <!--Text-->
+                        <p class="card-text">Con il termine orto si indica di solito un appezzamento di terreno dal quale, a seguito di lavorazione, si ricavano vegetali e funghi commestibili </p>
+                        
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card animali-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\animali\animali.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title">prodotto2</h4>
+                        <p class="card-text">Porzione di terreno coltivata a piante ornamentali e da fiore e adibita a luogo di ricreazione e passeggio Animalia Linnaeus, 1758 </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card image-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\giardino\giardino.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto3</h4>
+                        <!--Text-->
+                        <p class="card-text">L'agricoltura (dal latino agricultura, ager campi, e cultura coltivazione) è l'attività umana che consiste nella co Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card agricoltura-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\agricoltura\agricoltura.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto4</h4>
+                        <!--Text-->
+                        <p class="card-text">Gli animali (Animalia Linnaeus, 1758) o metazoi (Metazoa Haeckel, 1874) Animalia Linnaeus, 1758 Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card super colorate-->
+               </div>
             </div>
+         </div>
+      </div>
+      <p>&nbsp</p>
+      <p>&nbsp</p>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--card Orto-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\orto\orto.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto5</h4>
+                        <!--Text-->
+                        <p class="card-text">Con il termine orto si indica di solito un appezzamento di terreno dal quale, a seguito di lavorazione, si ricavano vegetali e funghi commestibili </p>
+                        
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card animali-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\animali\animali.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title">prodotto6</h4>
+                        <p class="card-text">Porzione di terreno coltivata a piante ornamentali e da fiore e adibita a luogo di ricreazione e passeggio Animalia Linnaeus, 1758 </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card image-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\giardino\giardino.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto7</h4>
+                        <!--Text-->
+                        <p class="card-text">L'agricoltura (dal latino agricultura, ager campi, e cultura coltivazione) è l'attività umana che consiste nella co Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card agricoltura-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\agricoltura\agricoltura.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">protodotto8</h4>
+                        <!--Text-->
+                        <p class="card-text">Gli animali (Animalia Linnaeus, 1758) o metazoi (Metazoa Haeckel, 1874) Animalia Linnaeus, 1758 Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card super colorate-->
+               </div>
+            </div>
+         </div>
+      </div>
+      <p>&nbsp</p>
+      <p>&nbsp</p>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--card Orto-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\orto\orto.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto9</h4>
+                        <!--Text-->
+                        <p class="card-text">Con il termine orto si indica di solito un appezzamento di terreno dal quale, a seguito di lavorazione, si ricavano vegetali e funghi commestibili </p>
+                        
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card animali-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\animali\animali.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title">prodotto10</h4>
+                        <p class="card-text">Porzione di terreno coltivata a piante ornamentali e da fiore e adibita a luogo di ricreazione e passeggio Animalia Linnaeus, 1758 </p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card image-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\giardino\giardino.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto11</h4>
+                        <!--Text-->
+                        <p class="card-text">L'agricoltura (dal latino agricultura, ager campi, e cultura coltivazione) è l'attività umana che consiste nella co Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card -->
+               </div>
+               <div class="col mb-4">
+                  <!-- Card -->
+                  <div class="card">
+                     <!--Card agricoltura-->
+                     <div class="view overlay">
+                        <img class="card-img-top" src="..\images\example.png"
+                           alt="Card image cap">
+                        <a href="\agricoltura\agricoltura.html">
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!--Card content-->
+                     <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">prodotto12</h4>
+                        <!--Text-->
+                        <p class="card-text">Gli animali (Animalia Linnaeus, 1758) o metazoi (Metazoa Haeckel, 1874) Animalia Linnaeus, 1758 Animalia Linnaeus, 1758</p>
+                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                        <button type="button" class="btn btn-success">Compra</button>
+                     </div>
+                  </div>
+                  <!-- Card super colorate-->
+               </div>
+            </div>
+         </div>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+
+
+       <!--footer-->
+       <div class="container-fluid sf p-3">
+        <div class="container sf">
+        <div class="row">
+        <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+           <h5 class="mb-1">Consulenza gratuita</h5>
+        </li>
+        <li class="list-inline-item">
+           <a href="https://www.google.com/search?q=niente+consulenza+gratuita+per+i+poracci+come+te." class="btn btn-danger btn-rounded">Scopri di più</a>
+        </li>
+        <p>&nbsp</p>
+        <iframe id="maps"
+           width="100%"
+           height="300px"
+           padding="0px"
+           margin="0px"
+           frameborder="0" style="border-radius: 30px;"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28218.450265207925!2d12.55106623618369!3d45.63319192130087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477957036a482b97%3A0x4303da8ef499bd36!2s30027%20San%20Don%C3%A0%20di%20Piave%20VE!5e1!3m2!1sit!2sit!4v1634838423661!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <hr class="mb-5"/>
+        <footer id="myFooter">
+           <div class="container">
+              <div class="row">
+                 <div class="col-sm-3">
+                 </div>
+                 <div class="col-sm-4">
+                    <h5>Grazie</h5>
+                    <p>Vi ringraziamo per aver sprecato il vostro tempo per visitare agroplus.com. In caso di domande, non esitare a contattarci tramite Email [𝙙𝙤𝙢𝙖𝙣𝙙𝙚@𝙖𝙜𝙧𝙤𝙥𝙡𝙪𝙨.𝙘𝙤𝙢]</p>
+                   
+                 </div>
+                 <div class="col-sm-1">
+                    <h5>Navigazione</h5>
+                    <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="orto/orto.html"> Orto</a></li>
+                       <li><a href="giardino/giardino.html">Giardino</a></li>
+                       <li><a href="animali/animali.html">Animali</a></li>
+                       <li><a href="agricoltura/agricoltura.html">Agricoltura</a></li>
+                    </ul>
+                 </div>
+                 <div class="col-sm-4">
+                    <div class="social-networks">
+                       <a href="twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+                       <a href="facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+                       <a href="google.com" class="google"><i class="fa fa-instagram"></i></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <hr class="mb-5"/>
+           <div class="footer-copyright">
+              <p>© 2021 AgroPlus</p>
+           </div>
+        </footer>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
-
