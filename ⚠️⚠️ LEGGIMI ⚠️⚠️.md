@@ -1,0 +1,1 @@
+il sito va visto con l'estensione Live Server, non abbiamo testato il sito senza web server locale
